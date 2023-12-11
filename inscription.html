@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulaire</title>
+ 
+</head>
+<body>
+
+  <form action="#" method="post">
+
+    <!-- Part1 -->
+    <div class="form-part">
+      <h2>Vos coordonnés</h2>
+      <div class="form-group">
+        <div class="form-field">
+          <label for="lastname"><b>Nom:</b></label>
+          <input type="text" id="lastname" name="lastname" placeholder="votre nom" required>
+        </div>
+
+        <div class="form-field">
+          <label for="firstname"><b>Prénom:</b></label>
+          <input type="text" id="firstname" name="firstname" placeholder="votre prénom" required>
+        </div>
+
+        <div class="form-field">
+          <label for="email"><b>Mail:</b></label>
+          <input type="email" id="email" name="email" placeholder="votre adresse mail" required>
+        </div>
+
+        <div class="form-field">
+          <label for="website"><b>Votre site:</b></label>
+          <input type="url" id="website" name="website" placeholder="votre site web" required>
+        </div>
+
+        <div class="form-field">
+          <label for="password"><b>Mot de passe:</b></label>
+          <input type="password" id="password" name="password" placeholder="votre mot de passe" required>
+        </div>
+
+        <div class="form-field">
+          <label for="birthdate"><b>Date de naissance:</b></label>
+          <input type="date" id="birthdate" name="birthdate" placeholder="Choisissez votre date de naissance" required>
+        </div>
+
+        <div class="form-field">
+          <label for="gender"><b>Genre:</b></label>
+          <div class="radio-group">
+            <label><input type="radio" name="gender" value="male">Homme</label>
+            <label><input type="radio" name="gender" value="female">Femme</label>
+            <label><input type="radio" name="gender" value="other">Autre</label>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="country"><b>Pays:</b></label>
+          <select id="country" name="country" placeholder="votre pays">
+            <optgroup label="Asie">
+              <option value="china">Chine</option>
+              <option value="india">Inde</option>
+              <option value="japon">Japon</option>
+             
+            </optgroup>
+            <optgroup label="Europe">
+              <option value="germany">Allemagne</option>
+              <option value="portugal">Portugal</option>
+              <option value="italie">Italie</option>
+            
+            </optgroup>
+            <optgroup label="Amérique">
+              <option value="us">Etats-Unis</option>
+              <option value="brazil">Brésil</option>
+              <option value="canada">Canada</option>
+            
+            </optgroup>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Part 2 -->
+    <div class="form-part">
+      <h2>Vos formations</h2>
+      <div class="form-group">
+        <div class="form-field">
+          <div class="checkbox-group">
+            <label><input type="checkbox" name="course1" value="course1"><b>Formation en HTML5</b></label>
+            <label><input type="checkbox" name="course2" value="course2"><b>Formation en CSS3</b></label>
+            <label><input type="checkbox" name="course3" value="course3"><b>Formation en JS</b></label>
+          </div>
+        </div>
+
+        <div class="form-field">          
+          <textarea id="comments" name="comments" placeholder="Entrez vos commentaires" rows="5" cols="50" maxlength="50"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- Part 3 -->
+    <div class="form-part">
+      <h2>Envoyez nous votre photo</h2>
+      <div class="form-group">
+        <div class="form-field">         
+          <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png" placeholder="Choisissez un fichier" required>
+        </div>
+
+        <input type="hidden" name="maxFileSize" value="10240">
+
+      </div>
+    </div>
+
+
+  </form>
+
+  <script src="inscription.js" defer></script>
+</body>
+</html>

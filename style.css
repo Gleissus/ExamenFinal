@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .form-part {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 18px;
+    background-color: #f5eded; /* Adiciona um fundo cinza */
+    padding: 5px 15px; /* Adiciona espaçamento interno ao redor do texto */
+    position: absolute; /* Adiciona posição absoluta para colocar sobre a borda superior */
+    top: -30px; /* Posiciona o h2 acima da borda superior */
+    left: 20px; /* Ajusta o recuo à esquerda */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0); /* Adiciona borda cinza */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    align-items: flex-end;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-size: 10px;
+  }
+  
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 0px;
+  }
+  
+  .checkbox-group input {
+    margin-right: 0px;
+  }
+
+  button {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+    border: 1px solid #007bff; /* Borda azul */
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 10px 15px; /* Espaçamento interno */
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
