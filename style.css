@@ -15,13 +15,13 @@ body {
   h2 {
     color: #333;
     font-size: 18px;
-    background-color: #f5eded; /* Adiciona um fundo cinza */
-    padding: 5px 15px; /* Adiciona espaçamento interno ao redor do texto */
-    position: absolute; /* Adiciona posição absoluta para colocar sobre a borda superior */
-    top: -30px; /* Posiciona o h2 acima da borda superior */
-    left: 20px; /* Ajusta o recuo à esquerda */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0); /* Adiciona borda cinza */
-    border-radius: 5px; /* Adiciona bordas arredondadas */
+    background-color: #f5eded; 
+    padding: 5px 15px; 
+    position: absolute; 
+    top: -30px; 
+    left: 20px; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0); 
+    border-radius: 5px; 
   }
   
   .form-group {
@@ -74,11 +74,11 @@ body {
   }
 
   button {
-    background-color: #007bff; /* Cor de fundo azul */
-    color: #fff; /* Cor do texto branco */
-    border: 1px solid #007bff; /* Borda azul */
-    border-radius: 20px; /* Bordas arredondadas */
-    padding: 10px 15px; /* Espaçamento interno */
+    background-color: #007bff; 
+    color: #fff; 
+    border: 1px solid #007bff; 
+    border-radius: 20px; 
+    padding: 10px 15px; 
     cursor: pointer;
     font-size: 14px;
   }
